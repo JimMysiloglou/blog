@@ -1,0 +1,17 @@
+---
+title: "My Portfolio"
+description: "Below you will find my projects, mostly about data analysis. I mainly use Python, SQL, and Tableau."
+listing:
+  contents: portfolio
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  page-size: 6
+  fields: [date, title, description, image]
+  image-placeholder: /images/default_project_image.jpg
+  date-format: YYYY-MM-DD
+page-layout: full
+title-block-banner: images/portfolio_jumbotron.jpg
+---

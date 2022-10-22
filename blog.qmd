@@ -1,0 +1,17 @@
+---
+title: "My Articles"
+description: "You can read my posts ordered by date or choose a certain topic."
+listing:
+  contents: blog
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: [title, date]
+  filter-ui: false
+  page-size: 9
+  fields: [date, title, reading-time, description, categories, image]
+  image-placeholder: /images/default_article_image.jpg
+  date-format: YYYY-MM-DD
+page-layout: full
+title-block-banner: images/blog_jumbotron.jpg
+---
