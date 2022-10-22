@@ -22,7 +22,14 @@ website:
         href: https://jimmysiloglou.eu.pythonanywhere.com/my_journey/
       - text: "Contact"
         href: https://jimmysiloglou.eu.pythonanywhere.com/contact/
-      
+
+    right:
+      - text: "Language"
+        menu:
+          - text: "English"
+            href: blog.qmd
+          - text: "Greek"
+            href: https://jimmysiloglou.github.io/el/blog.html
 
 
 
