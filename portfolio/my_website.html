@@ -98,6 +98,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="https://jimmysiloglou.eu.pythonanywhere.com/contact/">Contact</a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-language" role="button" data-bs-toggle="dropdown" aria-expanded="false">Language</a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-language">    
+        <li>
+    <a class="dropdown-item" href="../blog.html">
+ <span class="dropdown-text">English</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://jimmysiloglou.github.io/el/blog.html">
+ <span class="dropdown-text">Greek</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -233,7 +248,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/JimMysiloglou\.github\.io\/blog\//);
+      var filterRegex = new RegExp(/https:\/\/JimMysiloglou\.github\.io\/en\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

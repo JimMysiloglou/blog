@@ -1,1 +1,1 @@
-Sitemap: https://JimMysiloglou.github.io/blog/sitemap.xml
+Sitemap: https://JimMysiloglou.github.io/en/sitemap.xml
